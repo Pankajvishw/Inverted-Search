@@ -40,19 +40,23 @@ It uses **hash tables** and **linked lists** to build an **inverted index** — 
 
 inverted-search/
 │
-├── main.c # Entry point with menu-driven interface
-├── list.h / list.c # File list management
-├── validate.h / validate.c# Input file validation
-├── database.h / database.c# Core database operations
-├── hash.h / hash.c # Hash table implementation
-├── search.c # Search word functionality
-├── display.c # Display database
-├── save.c # Save database to file
-├── update.c # Update existing database
+├── main.c                 # Entry point with menu-driven interface
+│
+├── list.h / list.c        # File list management
+├── validate.h / validate.c # Input file validation
+├── database.h / database.c # Core database operations
+├── hash.h / hash.c        # Hash table implementation
+│
+├── search.c               # Search word functionality
+├── display.c              # Display the database
+├── save.c                 # Save the database to a file
+├── update.c               # Update existing database
+│
 ├── files/
-│ ├── file1.txt
-│ ├── file2.txt
-│ └── ...
+│   ├── file1.txt
+│   ├── file2.txt
+│   └── ...
+│
 └── README.md
 
 
