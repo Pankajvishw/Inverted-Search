@@ -1,3 +1,4 @@
+```markdown
 # 🔍 Inverted Search Project (C)
 
 ## 📘 Overview
@@ -35,7 +36,7 @@ It uses **hash tables** and **linked lists** to build an **inverted index** — 
 | **Flags** | Used to control duplicate creation or updates of the database. |
 
 ---
-
+```
 ## 🗂️ Project Structure
 
 | File / Folder        | Description                                      |
@@ -52,6 +53,8 @@ It uses **hash tables** and **linked lists** to build an **inverted index** — 
 | `files/`              | Directory containing input text files            |
 | `README.md`           | Project documentation                            |
 
+
+```yaml
 ---
 
 ## 🧠 Program Flow
@@ -60,7 +63,8 @@ It uses **hash tables** and **linked lists** to build an **inverted index** — 
 - Example:
   ```bash
   ./inverted_search file1.txt file2.txt file3.txt
-
+  ```
+```
 
 2. Menu Options
 
@@ -79,17 +83,17 @@ Compile
 
 Use GCC or any C compiler:
 
-```
+```bash
 gcc main.c list.c validate.c database.c hash.c search.c display.c save.c update.c -o inverted_search
 ```
 
 RUN
-```
+```bash
 ./inverted_search file1.txt file2.txt file3.txt
 ```
 
 Sample Ecexution
-```
+```mathematica
 $ ./inverted_search file1.txt file2.txt
 
 Valid files:
@@ -110,7 +114,7 @@ INFO: Database created successfully!
 
 🧾 Example Output
 
-```
+```markdown
 =============================
         INVERTED INDEX
 =============================
