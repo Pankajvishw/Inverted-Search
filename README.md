@@ -64,7 +64,6 @@ It uses **hash tables** and **linked lists** to build an **inverted index** — 
   ```bash
   ./inverted_search file1.txt file2.txt file3.txt
   ```
-```
 
 2. Menu Options
 
