@@ -54,7 +54,6 @@ It uses **hash tables** and **linked lists** to build an **inverted index** — 
 | `README.md`           | Project documentation                            |
 
 
-```yaml
 ---
 
 ## 🧠 Program Flow
@@ -70,6 +69,7 @@ It uses **hash tables** and **linked lists** to build an **inverted index** — 
 Once started, the user interacts through a menu-driven interface:
 
 Option	Description
+---
 1	Create Database (build inverted index)
 2	Display Database (view all indexed data)
 3	Search Word (find word occurrence across files)
