@@ -1,4 +1,3 @@
-```markdown
 # 🔍 Inverted Search Project (C)
 
 ## 📘 Overview
@@ -36,7 +35,6 @@ It uses **hash tables** and **linked lists** to build an **inverted index** — 
 | **Flags** | Used to control duplicate creation or updates of the database. |
 
 ---
-```
 ## 🗂️ Project Structure
 
 | File / Folder        | Description                                      |
@@ -64,15 +62,13 @@ It uses **hash tables** and **linked lists** to build an **inverted index** — 
   ./inverted_search file1.txt file2.txt file3.txt
   ```
 
-2. Menu Options
-
-Once started, the user interacts through a menu-driven interface:
-
+### **2. Menu Options**
+- Once started, the user interacts through a menu-driven interface:
 Option	Description
 ---
-1	Create Database (build inverted index)
-2	Display Database (view all indexed data)
-3	Search Word (find word occurrence across files)
+    1	Create Database (build inverted index)
+    2	Display Database (view all indexed data)
+    3	Search Word (find word occurrence across files)
 4	Save Database (store to backup file)
 5	Update Database (add new files)
 0	Exit program
