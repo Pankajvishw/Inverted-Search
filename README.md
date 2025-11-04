@@ -73,7 +73,7 @@ Option	Description
     5	Update Database (add new files)
     0	Exit program
 
-💻 Compilation & Execution
+### 💻 Compilation & Execution
 Compile
 
 Use GCC or any C compiler:
@@ -107,7 +107,7 @@ Enter choice: 1
 INFO: Database created successfully!
 ```
 
-🧾 Example Output
+### 🧾 Example Output
 
 ```markdown
 =============================
@@ -121,17 +121,17 @@ engine     |     1      | file2.txt
 --------------------------------
 ```
 
-🧰 Functions Used
-Function	Description
-initialize_hashTable()	Initializes the hash table with NULL values.
-read_and_validate_args()	Validates and creates the list of valid input files.
-create_database()	Builds the inverted index.
-display_database()	Displays the complete hash table contents.
-search_word()	Searches for a specific word.
-save_database()	Saves the database to a file.
-update_database()	Adds new files to the existing database.
+### 🧰 Functions Used
+|Function	|Description|
+|initialize_hashTable()	|Initializes the hash table with NULL values.|
+|read_and_validate_args()	|Validates and creates the list of valid input files.|
+|create_database()	|Builds the inverted index.|
+|display_database()	|Displays the complete hash table contents.|
+|search_word()	|Searches for a specific word.|
+|save_database()	|Saves the database to a file.|
+|update_database()	|Adds new files to the existing database.}
 
-🪄 Future Enhancements
+### 🪄 Future Enhancements
 
 Add case-insensitive search support.
 
