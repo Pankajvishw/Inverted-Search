@@ -1,0 +1,3 @@
+c programming is fun
+linked list and hash table
+text processing and parsing
