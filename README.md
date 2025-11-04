@@ -69,9 +69,9 @@ Option	Description
     1	Create Database (build inverted index)
     2	Display Database (view all indexed data)
     3	Search Word (find word occurrence across files)
-4	Save Database (store to backup file)
-5	Update Database (add new files)
-0	Exit program
+    4	Save Database (store to backup file)
+    5	Update Database (add new files)
+    0	Exit program
 
 💻 Compilation & Execution
 Compile
