@@ -120,17 +120,20 @@ search     |     1      | file1.txt
 engine     |     1      | file2.txt
 --------------------------------
 ```
-
+---
 ### 🧰 Functions Used
-|Function	|Description|
-|initialize_hashTable()	|Initializes the hash table with NULL values.|
-|read_and_validate_args()	|Validates and creates the list of valid input files.|
-|create_database()	|Builds the inverted index.|
-|display_database()	|Displays the complete hash table contents.|
-|search_word()	|Searches for a specific word.|
-|save_database()	|Saves the database to a file.|
-|update_database()	|Adds new files to the existing database.}
 
+|Function	                |Description|
+|---------------------------|----------------------------------------------------|
+|initialize_hashTable()	    |Initializes the hash table with NULL values.|
+|read_and_validate_args()	|Validates and creates the list of valid input files.|
+|create_database()	        |Builds the inverted index.|
+|display_database()	        |Displays the complete hash table contents.|
+|search_word()	            |Searches for a specific word.|
+|save_database()	        |Saves the database to a file.|
+|update_database()          |Adds new files to the existing database.}
+
+---
 ### 🪄 Future Enhancements
 
 Add case-insensitive search support.
