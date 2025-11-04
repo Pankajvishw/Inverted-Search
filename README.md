@@ -38,27 +38,19 @@ It uses **hash tables** and **linked lists** to build an **inverted index** — 
 
 ## 🗂️ Project Structure
 
-inverted-search/
-│
-├── main.c                 # Entry point with menu-driven interface
-│
-├── list.h / list.c        # File list management
-├── validate.h / validate.c # Input file validation
-├── database.h / database.c # Core database operations
-├── hash.h / hash.c        # Hash table implementation
-│
-├── search.c               # Search word functionality
-├── display.c              # Display the database
-├── save.c                 # Save the database to a file
-├── update.c               # Update existing database
-│
-├── files/
-│   ├── file1.txt
-│   ├── file2.txt
-│   └── ...
-│
-└── README.md
-
+| File / Folder        | Description                                      |
+|-----------------------|--------------------------------------------------|
+| `main.c`              | Entry point with menu-driven interface           |
+| `list.c / list.h`     | Manages file list using linked lists             |
+| `validate.c / validate.h` | Validates input files and command-line arguments |
+| `database.c / database.h` | Core database creation and management logic     |
+| `hash.c / hash.h`     | Implements hash table for word indexing          |
+| `search.c`            | Searches a word in the inverted database         |
+| `display.c`           | Displays the complete inverted index             |
+| `save.c`              | Saves the database to a backup file              |
+| `update.c`            | Updates the existing database with new files     |
+| `files/`              | Directory containing input text files            |
+| `README.md`           | Project documentation                            |
 
 ---
 
